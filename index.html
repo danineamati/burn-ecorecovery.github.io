@@ -171,6 +171,57 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3 has-text-centered">Interactive 3D Models</h2>
+    <div class="content has-text-left" style="margin-bottom: 2rem;">
+      <p>
+        Explore the temporal evolution of the burn site through <b>interactive</b> 
+        3D reconstructions captured at monthly intervals. 
+        Click on any model below to load and interact with the 3D scene.
+        <u>Please use a device with a GPU and ensure that your browser has access
+        to the GPU</u>. Otherwise, the models and browser may be very slow. 
+        Each model is roughly 1GB in size. 
+        The 3D models of each month are available upon request.
+      </p>
+    </div>
+    <div class="columns is-multiline">
+      <div class="column is-half">
+        <h3 class="title is-5 has-text-centered">February 2025</h3>
+        <div id="polycam-container-1" class="polycam-wrapper" style="position: relative; height: 400px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+          <button class="button is-dark is-large" onclick="loadPolycam('polycam-container-1', 'https://poly.cam/capture/b9b4bcd8-5f71-4055-a757-b5724fec85de/embed')">
+            Load 3D Model
+          </button>
+        </div>
+      </div>
+      <div class="column is-half">
+        <h3 class="title is-5 has-text-centered">May 2025</h3>
+        <div id="polycam-container-2" class="polycam-wrapper" style="position: relative; height: 400px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+          <button class="button is-dark is-large" onclick="loadPolycam('polycam-container-2', 'https://poly.cam/capture/af45eacd-8021-470d-baed-7332b4707e00/embed')">
+            Load 3D Model
+          </button>
+        </div>
+      </div>
+      <div class="column is-half">
+        <h3 class="title is-5 has-text-centered">August 2025</h3>
+        <div id="polycam-container-3" class="polycam-wrapper" style="position: relative; height: 400px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+          <button class="button is-dark is-large" onclick="loadPolycam('polycam-container-3', 'https://poly.cam/capture/3F9FC711-CFA3-4285-AEA3-AF5F01196107/embed')">
+            Load 3D Model
+          </button>
+        </div>
+      </div>
+      <div class="column is-half">
+        <h3 class="title is-5 has-text-centered">November 2025</h3>
+        <div id="polycam-container-4" class="polycam-wrapper" style="position: relative; height: 400px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; border-radius: 10px;">
+          <button class="button is-dark is-large" onclick="loadPolycam('polycam-container-4', 'https://poly.cam/capture/d9186811-a63c-4569-83bb-be2061dbf57a/embed')">
+            Load 3D Model
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <section class="section">
 
@@ -225,7 +276,7 @@
     <!--/ Abstract. -->
 
     <!-- Session. -->
-    <div class="columns is-centered has-text-centered">
+    <div class="columns is-centered has-text-centered" style="margin-top: 3rem;">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Session</h2>
         <div class="content has-text-justified">

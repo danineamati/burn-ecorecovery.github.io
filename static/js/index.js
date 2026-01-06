@@ -19,6 +19,11 @@ function setInterpolationImage(i) {
   $('#interpolation-image-wrapper').empty().append(image);
 }
 
+function loadPolycam(containerId, url) {
+  const container = document.getElementById(containerId);
+  container.innerHTML = `<iframe src="${url}" title="Polycam capture viewer" style="height:100%;width:100%;max-height:720px;max-width:1280px;min-height:280px;min-width:280px;border-radius: 10px;" frameborder="0"></iframe>`;
+}
+
 
 $(document).ready(function() {
     // Check for click events on the navbar burger icon
