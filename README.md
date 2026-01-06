@@ -1,6 +1,6 @@
 # Tracking Recovery: Temporally-Matched 3D Gaussian Splatting of Ecosystems after Prescribed Burns
 
-This repository forms the [website](https://burn-ecorecovery.github.io) that accompanies our AGU 2025 oral presentation.
+This repository forms the [website](https://danineamati.github.io/burn-ecorecovery.github.io/) that accompanies our AGU 2025 oral presentation.
 
 Please consider citing our work:
 ```bibtex
