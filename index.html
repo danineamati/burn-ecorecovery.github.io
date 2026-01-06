@@ -247,16 +247,18 @@
           </p>
           <p>
             To address this gap, we extend recent machine learning-based 
-            computer graphics techniques in <b>3D Gaussian Splatting (3DGS)</b> to 
-            reconstruct scenes at the wildland-urban interface from handheld 
-            and drone imagery with sufficient detail to identify species, 
-            capture individual leaves, recover plant stature, and disambiguate 
-            overhanging plant individuals. We develop a new method to <b>match the 
-            3DGS reconstruction of these scenes across months</b>, associating 
+            computer graphics techniques in <b>3D Gaussian Splatting (3DGS)</b> 
+            to reconstruct scenes at the wildland-urban interface from handheld 
+            imagery (i.e., a typical tablet or smartphone camera) with 
+            sufficient detail to identify species, capture individual leaves, 
+            recover plant stature, and disambiguate overhanging plant 
+            individuals. We develop a new method to <b>match the 3DGS 
+            reconstruction of these scenes across months</b>, associating 
             plant growth across seasons interactively in 3D. To achieve the 
-            centimeter-level matching, we adapt the iterative closest point 
-            algorithm from point cloud maps to the 3DGS scene, leveraging the 
-            probabilistic interpretation of the 3D Gaussian data structure and 
+            centimeter-level matching, we adapt the Umeyama algorithm and the 
+            iterative closest point algorithm from point cloud maps to the 
+            environment-specific 3DGS scene, leveraging the probabilistic 
+            interpretation of the 3D Gaussian data structure and 
             robustly handling visual and geometric changes associated with 
             vegetation phenology over time.
           </p>
